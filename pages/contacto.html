@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="../style.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <header>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="../images/side-menu.png" alt="menu" class="side-menu"></label>
+
+
+        <nav class="menu">
+
+            <div>
+                <ul>
+                    <li ><a href="../index.html" class="header-a">Home</a>
+                    </li>
+                    <li><a href="servicios.html">Servicios</a>
+                    </li>
+                    <li><a href="trabajos.html">Trabajos</a>
+                    </li>
+                    <li><a href="sobre-mi.html">Sobre mi</a>
+                    </li>
+                    <li><a href="clientes.html">Clientes</a>
+                    </li>
+                    <li><a href="contacto.html">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="index-header-logo">
+                <a href="../index.html" >
+                <!-- Logo -->
+                <img src="../images/usuario.png" alt="Logo" class="header-logo" id="home">
+                </a>
+            </div>
+
+        </nav>
+
+    </header>
+
+<section>
+    <h1 class="contacto-titulo">Contactanos</h1>
+
+    <form class="contacto-forms" >
+
+        <div class="form form__name">
+            <label class="input__title" for="Nombre">Nombre y apellido:</label>
+            <input class="input" name="Nombre" type="text" required>
+        </div>
+
+        <div class="form form__email">
+            <label class="input__title" for="Mail">Dirección de mail:</label>
+            <input class="input" name="Mail" type="email" required>
+        </div>
+
+        <div class="form form__phone">
+            <label class="input__title" for="Telefono">Número de teléfono:</label>
+            <input class="input" name="Telefono" type="tel">    
+        </div>
+        
+        <fieldset class="row mb-3">
+        <div class="form form__radio">
+            <legend>¿Que servicio te interesa?</legend>
+            <div class="radio__opt">
+                <input type="radio">
+                <label for="sucursal">Video</label>
+            </div>
+            <div class="radio__opt">
+                <input type="radio">
+                <label for="sucursal">Edicion</label>
+            </div>
+            <div class="radio__opt">
+                <input type="radio">
+                <label for="sucursal">Streaming</label>
+            </div>
+            <div class="radio__opt">
+                <input type="radio">
+                <label for="sucursal">Equipos</label>
+            </div>
+        </div>
+
+        <div class="form form__check">
+            <h4>¿Cómo nos conociste?</h4>
+            <div class="check__opt">
+                <input type="checkbox" name="ig">
+                <label for="ig">Instagram</label>
+            </div>
+            <div class="check__opt">
+                <input type="checkbox" name="fb">
+                <label for="fb">Facebook</label>
+            </div>
+            <div class="check__opt">
+                <input type="checkbox" name="c">
+                <label for="c">Conocidos</label>
+            </div>
+            <div class="check__opt">
+                <input type="checkbox" name="g">
+                <label for="g">Búsqueda de Google</label>
+            </div>
+        </div>
+
+        <div class="form form__textarea">
+            <label for="Mensaje" class="input__title">Consulta:</label>
+            <textarea class="input input--textarea" name="Mensaje" id="" cols="" rows=""></textarea>
+        </div>
+
+        <div class="btns">
+            <input type="submit" class="btn btn--orange" value="Enviar">
+            <input type="reset" class="btn" value="Borrar">    
+        </div>
+        
+
+    </form>
+</main>
+
+
+</section>
+
+    <footer>
+  
+        <a href="#" class="footer-logo">
+            <img src="../images/usuario.png" alt="Logo" class="footer-logo">
+        </a>
+
+        <div class="footer-redes">
+            <a href="https://facebook.com" target="_blank">
+                <img src="../images/facebook.png" alt="Facebook" class="footer-icono-redes">
+            </a>
+
+            <a href="https://linkedin.com" target="_blank">
+                <img src="../images/linkedin.png" alt="Linkedin" class="footer-icono-redes">
+            </a>
+
+            <a href="https://instagram.com" target="_blank">
+                <img src="../images/instagram.png" alt="Instagram" class="footer-icono-redes">
+            </a>
+        </div>  
+    
+        <p class="firma">Desarrollado por Micaela Naiara Gil</p>  
+      
+        <a href="#">
+            <img src="../images/flecha.png" alt="Home" class="home">
+        </a>
+    
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
