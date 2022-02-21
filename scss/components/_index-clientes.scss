@@ -1,0 +1,45 @@
+@import "../base/listas";
+
+.index-presentacion-clientes {
+    background-color: nth($colores, 2);
+    color:  nth($colores, 4);
+    border-radius: 22px;
+    text-align: left;
+    margin-left: -30px;
+    padding-left: 40px;
+    width: 60%;
+    height: 180px;
+}
+
+.index-titulo-introduccion-clientes {
+    margin-top: 10px;
+    padding-top: 10px;
+    color: nth($colores, 5);
+}
+
+.index-logo-clientes {
+ width: 120px;
+ margin: 20px;
+ background-color: nth($colores, 5);
+ border-radius: 20px;
+ padding: 20px;
+}
+
+.ic-container {
+    margin-top: -15px;
+    background-color: nth($colores, 3);
+}
+
+@media only screen and (max-width: 970px) {
+
+    .index-presentacion-clientes {
+        margin-top: 20px;
+        width: 100%;
+        height: auto;
+    }
+
+    .ic-container {
+        margin-top: 0px;
+    }
+}
+

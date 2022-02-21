@@ -1,0 +1,31 @@
+@import "../base/listas";
+
+.id-container {
+    background-color: nth($colores, 2);;
+}
+
+.index-datos {
+    text-align: center;
+    align-items: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.index-icono-datos {
+    border-right: var(--iconos-fondo);
+    border-left: var(--iconos-fondo);
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.index-porcentaje {
+    color: nth($colores, 5);   
+}
+
+.index-icono-info {
+    color: nth($colores, 4);
+}
+
+.index-fuente {
+    color: nth($colores, 5);   
+}
+

@@ -1,0 +1,56 @@
+@import "../base/listas";
+
+.index-presentacion-trabajos {
+    background-color: nth($colores, 2);
+    color: nth($colores, 4);
+    border-radius: 22px;
+    text-align: left;
+    margin-left: -30px;
+    padding-left: 40px;
+    width: 60%;
+    height: 180px;
+}
+
+.index-titulo-introduccion-trabajos {
+    margin-top: 10px;
+    padding-top: 10px;
+    color: nth($colores, 5);
+}
+
+.it-container {
+    margin-top: -15px;
+    background-color: nth($colores, 3);
+}
+
+.index-trabajos {
+    width: 70%;
+    padding: 30px;
+    justify-self: center;
+    &:hover{
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+}
+
+.it-div  {
+    background-color: nth($colores, 5);
+    border-radius: 22px;
+    margin: 20px 0px;
+    padding: 10px;
+    grid-area: "it-div2";
+}
+
+
+
+@media only screen and (max-width: 970px) {
+
+.index-presentacion-trabajos {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+.index-trabajos {display:none}
+
+}

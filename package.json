@@ -1,0 +1,23 @@
+{
+  "name": "audiovisual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mnaiara22/Portfolio-Micaela-Gil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mnaiara22/Portfolio-Micaela-Gil/issues"
+  },
+  "homepage": "https://github.com/Mnaiara22/Portfolio-Micaela-Gil#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

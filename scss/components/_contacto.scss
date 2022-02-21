@@ -1,0 +1,88 @@
+@import "../base/listas";
+
+.contacto-forms {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    background-color: #f8b478;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.form {
+    margin: 15px;
+}
+
+.input {
+    outline: none;
+    border: solid 1px #ccc;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    width: 470px;
+    border-radius: 5px;
+    display: block
+}
+
+.input__title {
+    font-weight: 600;
+}
+
+.form__select {
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+.form__check, .form__radio {
+    display: inline-block;
+}
+
+label {display: inline;}
+
+.input--textarea {
+    height: 150px;
+}
+
+.btns {
+    margin: 5px;
+}
+
+.btn {
+    height: 40px;
+    width: 65px;
+    border-radius: 20px;
+    font-weight: 700;
+    border: 0;
+}
+
+.btn--orange {
+    background-color: #FF7800;
+}
+
+
+@media only screen and (max-width: 970px) {
+    .form__check, .form__radio {
+        display: inline;
+    }
+
+   .input {width: 200px;
+    margin: var(--responsive-margin);
+    padding: var(--responsive-padding);
+    }
+    
+    .contacto-forms {
+        width: 80%;
+        margin: 0px;
+        padding: var(--responsive-padding);
+        justify-self: center;
+    }
+
+}
+
+@media (min-width: 576px) {
+    .input__title {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+    }
+}
+

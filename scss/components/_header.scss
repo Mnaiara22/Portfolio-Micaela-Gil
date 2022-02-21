@@ -1,0 +1,104 @@
+@import "../base/listas";
+
+header {
+    width: 100%;
+    background-color: nth($colores, 1);
+    z-index: 1000;
+    position: sticky;
+}
+
+#btn-menu {
+    display: none;
+}
+
+.side-menu {
+    width: 30px;
+}
+
+header label {
+    display: none;
+    width: 30px;
+    height:30px ;
+    padding: 10px;
+    border-right: 1px solid nth($colores, 1);
+    &:hover {
+        cursor: pointer;
+        background:rgba(0,0,0,1);}
+}
+
+
+.menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+
+}
+
+.menu li {
+    border-right: 1px solid nth($colores, 5);
+    &:hover {background: rgba(0,0,0,0.3);
+    }
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color:  nth($colores, 4);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.header-logo {
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.index-header-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 970px) {
+
+    header label {
+        display: block;    
+    }
+
+    .menu {
+        position: absolute;
+        background: nth($colores, 1);
+        width: 60%;
+        margin-left: -60%;
+        transition: all 0.5s;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu li {
+        border-bottom: 1px solid  nth($colores, 5);
+        width: 100%;
+        padding-right: 100% ;
+        border-right: none;
+    }
+
+    #btn-menu:checked ~ .menu {
+        margin: 0px;
+    }
+
+}

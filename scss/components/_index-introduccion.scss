@@ -1,0 +1,14 @@
+@import "../base/listas";
+
+.index-foto-panoramica {
+    width: 100%;
+}
+
+.index-titulo {
+    margin-top: 20px;
+    text-align: center;
+    &::selection {
+        background-color: nth($colores, 5);
+        color: nth($colores, 4);
+    }
+}

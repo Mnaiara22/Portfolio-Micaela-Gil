@@ -1,0 +1,23 @@
+@import "../base/listas";
+
+.sobre-mi-iconos {
+    width: 10%;
+}
+
+
+
+@media only screen and (max-width: 970px) {
+
+    .sobre-mi-grid-container > * {
+        padding:  var(--responsive-padding);
+        text-align: center;
+    }
+
+    .sobre-mi-grid-container {
+        margin: var(--responsive-margin);
+        padding: var(--responsive-padding);
+    }
+
+
+
+}
